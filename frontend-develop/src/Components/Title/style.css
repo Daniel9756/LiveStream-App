@@ -1,0 +1,22 @@
+.title-lg{
+	font: Bold 37px/63px Roboto;
+	letter-spacing: 0.21px;
+	color: #2C2C2C;
+	opacity: 1;
+    white-space: nowrap;
+}
+
+.title-md{
+    font: Bold 24px Roboto;
+    letter-spacing: 0.21px;
+    color: #393E51;
+    opacity: 1;
+	white-space: nowrap;
+}
+.title-sm{
+    font: Bold 20px/25px Roboto;
+    letter-spacing: 0.21px;
+    color: #393E51;
+    opacity: 1;
+	white-space: nowrap;
+}

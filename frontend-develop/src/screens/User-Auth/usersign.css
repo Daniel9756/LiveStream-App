@@ -1,0 +1,151 @@
+.event_pageview{
+    width: 100vw;
+    height: 100vh;
+    background:#FCF1E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.E-img-wrapper {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.e-sign {
+    margin-right: 70px;
+    margin-top: 27px;
+}
+i.fa.fa-bars {
+    font-size: 24px;
+    color: #ca6144;
+}
+/*country telephone*/
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+h2._userheading {
+    font: normal normal bold 39px Roboto;
+    letter-spacing: 0px;
+    color: #CA6144;
+    text-align: center;
+}
+p._userp {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0.11px;
+    color: #393E51;
+    text-align: center;
+    margin-top: 6px;
+    line-height: 20px;
+}
+span._userspan {
+    text-align: center;
+    font: normal normal normal 16px/26px Roboto;
+    letter-spacing: 0.1px;
+}
+label.fname-s,.mail,._fone,._passe {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #756F86;
+    line-height: 32px;
+}
+input#fname {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C27380A;
+    border: 1px solid #CA6144;
+    width: 339px;
+    height: 38px;
+    border-radius: 5px;
+}
+input#email {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C27380A;
+    border: 1px solid #C9C9C9;
+    width: 339px;
+    height: 38px;
+    border-radius: 5px;
+}
+input.form-control {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C27380A;
+    border: 1px solid #C9C9C9;
+    width: 339px;
+    height: 38px;
+    border-radius: 5px;
+}
+input._passed {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C27380A;
+    border: 1px solid #C9C9C9;
+    width: 339px;
+    height: 38px;
+    border-radius: 5px;
+}
+input::placeholder{
+    margin-left: 20px;
+}
+.subuser {
+    text-align: center;
+}
+.-hgh,.klh,.ynum,._labell-child {
+    margin-top: 30px;
+}
+._userform {
+    display: flex;
+    justify-content: center;
+}
+.user-term {
+    display: flex;
+    justify-content: center;
+}
+p._terms {
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #756F86;
+}
+u {
+    color: #CA6144;
+}
+button.user-btn {
+    margin-top: 20px;
+    background: #CA6144 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C273814;
+    width: 339px;
+    height: 38px;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #EBF4F8;
+    border: 1px solid #CA6144 ;
+     border-radius: 5px;
+}
+a._usrlnk {
+    color: #CA6144;
+}
+._iconx {
+    position: relative;
+    top: -27px;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-right: 6px;
+    color: #C9C9C9;
+}
+.user-wrapper {
+    margin-top: 57px;
+}

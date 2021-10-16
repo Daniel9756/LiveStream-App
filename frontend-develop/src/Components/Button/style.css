@@ -1,0 +1,19 @@
+.primary{
+    border-radius: 8px;
+    border: none;
+    font: Black 20px/24px Roboto;
+    letter-spacing: 0.12px;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.primaryBtn {
+    background-color: #CA6144;
+    color: #FFFFFF;
+}
+
+.secondaryBtn{
+    background-color:  #FFFFFF;
+    color: #CA6144;
+}

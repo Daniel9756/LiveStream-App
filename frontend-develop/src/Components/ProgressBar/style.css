@@ -1,0 +1,66 @@
+.myprogress-bar .phase .active{
+    background: #ca6144;
+    border: 2px solid #ca6144;
+}
+
+.myprogress-bar .phase .generalState{
+    background: #e9e6c9;
+    border: 2px solid #e9e6c9;
+}
+
+.myprogress-bar .phase .activebar{
+    color: #ca6144;
+    background-color: 2px solid #ca6144;
+}
+
+.myprogress-bar .phase .generalStatebar{
+    color: #e9e6c9;
+    background-color:#e9e6c9;
+}
+
+.myprogress-bar .phase{
+    display: inherit;
+    width: 20%;
+}
+
+.myprogress-bar .bar {
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+    height:3px;
+    border-width:0;
+    
+}
+
+.myprogress-bar .title{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+.myprogress-bar .phase .bullet{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+._span{
+    font: 100 12px/14px Roboto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+}
+.myprogress-bar{
+    display: flex;
+    margin: 40px 0;
+    user-select: none;
+    justify-content: center;
+  }

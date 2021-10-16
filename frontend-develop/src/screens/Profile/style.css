@@ -1,0 +1,175 @@
+
+._span{
+    font: 100 12px/14px Roboto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+}
+
+.profile_logo{
+    	/* height: 59px;
+        width: 324px; */
+        height: 49px;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+ 
+
+._body{
+    width: 100vw;
+    height: 100vh;
+    background: #393E51 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;	
+    display: flex;
+    justify-content: center;
+     position: relative;
+
+}
+._box-container {	
+    width: 1113px;
+    height: 596px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile_label {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+}
+.text_label {
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+ .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #f2f2f2;
+    width: 180px;
+    height: 250px;
+	background: #f2f2f2;
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+} 
+
+.card .active{
+	background: #ca6144;
+} 
+
+.card.card-middle.text {
+    padding: 0 20px 20px;
+    margin-top: 31px;
+    line-height: 28px;
+}
+.card-title{
+	text-align: center;
+	font: normal normal 11px/13px Roboto;
+	letter-spacing: 0px;
+	color: #212121;
+}
+.card-fig{
+	display: flex;
+    justify-content: center;
+    font: normal normal 12px/14px Roboto;
+    letter-spacing: 1px;
+    color: #212121;
+    font-size: 30px;
+    padding: 11px;
+}
+.card-figs{
+	display: flex;
+    justify-content: center;
+    font: normal normal 15px/18px Roboto;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 30px;
+    padding: 11px;
+}
+ul.plan-title {
+    text-align: center;
+    list-style: none;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: 15px;
+}
+sup {
+    vertical-align: super;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-right: 2px;
+}
+.card-middle {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ca6144;
+    width: 180px;
+    height: 250px;
+    background: #ca6144;
+    border-radius: 6px;
+    color: #fff;
+}
+.text-card {
+    margin-top: 55px;
+}
+.card-titles {
+    text-align: center;
+    font: normal normal bold 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #fff;
+}
+.title-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+}
+.toggle-case {
+    width: 55px;
+    height: 33px;
+    background-color: #ca6144;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.toggle-dot{
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 8px;
+    margin: 5px;
+}
+li.plan-child {
+    font-size: 11px;
+}
+.title-toggle label{
+	font: 500 15px/17px Roboto;
+    letter-spacing: 0px;
+    color: #19282f8c;
+    padding: 7px;
+}
+

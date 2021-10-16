@@ -1,0 +1,19 @@
+
+
+.inputcss{
+	width: 88%;
+    height: 43px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CA6144;
+    border-radius: 8px;
+    opacity: 1;
+    margin-left: 15px;
+    margin-top: 4px;
+    padding: 15px;
+    font: 100 13px/18px Roboto;
+    color: grey;
+}
+input[type=text]:focus { 
+    outline: none !important;
+    border-color: #CA6144;
+  }

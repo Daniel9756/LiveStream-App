@@ -1,0 +1,12 @@
+.linkclass{
+	font: 100 15px/18px Roboto;
+    letter-spacing: 0.09px;
+    color: #CA6144;
+    opacity: 1;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #CA6144;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

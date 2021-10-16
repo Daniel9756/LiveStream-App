@@ -1,0 +1,11 @@
+.title-child{
+	font: Bold 37px/63px Roboto;
+	letter-spacing: 0px;
+	color: #2C2C2C;
+}
+
+.profileTitle {
+	margin-top: -34px;
+    display: flex;
+    justify-content: center;
+}

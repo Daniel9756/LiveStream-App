@@ -1,0 +1,74 @@
+._banktansfer{
+    width: 100vw;
+    height: 100vh;
+    background:#FCF1E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.E-img-wrapper {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.e-sign {
+    margin-right: 70px;
+    margin-top: 27px;
+}
+.overlayed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.overlay-grayed {
+    position: relative;
+    width: 497px;
+    padding: 50px;
+    height: 220px;
+    top: 70%;
+    left: 50%;
+    margin-left: -249px;
+    margin-top: -178px;
+}
+.overlay-content-s {
+    position: relative;
+    width: 500px;
+    padding: 50px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-left: -246px;
+    margin-top: -178px;
+    border-radius: 6px;
+}
+.underline-cardd::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 169px;
+    top: 142px;
+    bottom: 0;
+    border: 1px solid #ca6144;
+    border-width: 3px 0px 0px 0px;
+    width: 178px;
+}
+._belows {
+    position: relative;
+    top: 154px;
+    display: flex;
+    justify-content: center;
+}
+._enterdtails {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

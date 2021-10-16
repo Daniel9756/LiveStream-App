@@ -1,0 +1,61 @@
+._confirmpay{
+    width: 100vw;
+    height: 100vh;
+    background:#FCF1E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.E-img-wrapper {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.e-sign {
+    margin-right: 70px;
+    margin-top: 27px;
+}
+.checkedd {
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+i.fa.fa-check-circle {
+    font-size: 129px;
+}
+h3.checked-h3 {
+    display: flex;
+    justify-content: center;
+    font: normal normal medium 36px Roboto;
+    letter-spacing: 0px;
+    margin-top: 19px;
+    color: #393E51;
+}
+p.checked-p {
+    display: flex;
+    justify-content: center;
+    font: normal normal medium 36px Roboto;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    color: #393E51;
+}
+.checked-lnnk {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+a.checkd-lnk {
+    font: normal normal bold 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: #CA6144;
+    text-decoration: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CA6144;
+    border-radius: 5px;
+    padding: 6px 11px;
+}

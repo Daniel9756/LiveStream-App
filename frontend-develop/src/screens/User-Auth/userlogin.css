@@ -1,0 +1,72 @@
+.userlogin-form {
+    display: flex;
+    justify-content: center;
+}
+.event_pageview{
+    width: 100vw;
+    height: 100vh;
+    background:#FCF1E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.E-img-wrapper {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.e-sign {
+    margin-right: 70px;
+    margin-top: 27px;
+}
+i.fa.fa-bars {
+    font-size: 24px;
+    color: #ca6144;
+}
+._btnx {
+    width: 344px;
+    height: 47px;
+    border-radius: 8px;
+    background-color: #CA6144;
+    border-color: #CA6144;
+    font: Black 20px/24px Roboto;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: -1px;
+    margin-top: 15px;
+}
+.logged-in_boxs {
+    margin-left: -15px;
+}
+a.logged-ins {
+    font: 100 13px/4px Roboto;
+    letter-spacing: 0.08px;
+    color: #CA6144;
+    text-decoration: none;
+    padding-left: 8px;
+}
+.fgot-boxs {
+    margin-right: -27px;
+}
+p._userps {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0.11px;
+    color: #393E51;
+    text-align: center;
+    margin-top: 6px;
+    line-height: 20px;
+}
+span._userspans {
+    text-align: center;
+    font: normal normal normal 16px/26px Roboto;
+    letter-spacing: 0.1px;
+}
+.userlogin {
+    margin-top: 57px;
+}

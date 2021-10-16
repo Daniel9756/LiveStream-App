@@ -1,0 +1,12 @@
+._textarea{
+	border-radius: 8px;
+    margin-top: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CA6144;
+    padding: 10px;
+    margin-left: 15px;
+}
+._textarea:focus { 
+    outline: none !important;
+    border-color: #CA6144;
+  }

@@ -1,0 +1,58 @@
+._live001, ._live002, ._live003, ._live004 {
+    margin: 0px 55px 0px 55px;
+}
+._live001::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 224px;
+    top: 309px;
+    bottom: 0;
+    border: 1px solid #fff;
+    border-width: 0 0 0 3px;
+    height: 84px;
+}
+._live002::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 453px;
+    top: 309px;
+    bottom: 0;
+    border: 1px solid #fff;
+    border-width: 0 0 0 3px;
+    height: 84px;
+}
+._live003::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right:657px;
+    top: 309px;
+    bottom: 0;
+    border: 1px solid #fff;
+    border-width: 0 0 0 3px;
+    height: 84px;
+}
+p.dmws {
+    float: revert;
+    float: right;
+    font: normal normal normal 12px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-right: 11.5em;
+}
+h2.xxcy-122 {
+    font: normal normal bold 24px/40px Roboto;
+    letter-spacing: 0px;
+    color: #19282F;
+    margin-left: -22px;
+    margin-top: 8px;
+}
+span.ttimes {
+    margin-top: 18px;
+    margin-right: 20px;
+}

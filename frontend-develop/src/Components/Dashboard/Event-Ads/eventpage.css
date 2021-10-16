@@ -1,0 +1,379 @@
+.event_pageview{
+    width: 100vw;
+    height: 100vh;
+    background:#FCF1E7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.E-img-wrapper {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.e-sign {
+    margin-right: 70px;
+    margin-top: 27px;
+}
+i.fa.fa-bars {
+    font-size: 24px;
+    color: #ca6144;
+}
+.eventview-wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.view-header {
+    margin-left: 13px;
+}
+h1.view-h1 {
+    font: normal normal bold 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+    opacity: 1;
+}
+/* p.view-desc {
+    font: 400 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;
+} */
+img.event-img {
+    width: 521px;
+    height: 376px;
+}
+h4.img-header {
+    font: 700 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+}
+p.image-descr-w {
+    font: normal normal normal 20px/30px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+label.link-link {
+    font: 100 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+}
+a.lnk {
+    /* text-decoration: underline; */
+    font: normal normal normal 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+    line-height: 33px;
+}
+button.view-btn {
+    background: #566683 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 5px 109px 5px 109px;
+    font: normal normal bold 19px/23px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: 1px solid;
+    margin-left: 28px;
+}
+._event-countdown {
+    margin-top:24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1.eventy02 {
+    font: normal normal bold 40px/66px Roboto;
+    letter-spacing: 0px;
+    color: #566683;
+}
+h1.eventy03,.eventy04,.eventy05 {
+    font: normal normal bold 40px/66px Roboto;
+    letter-spacing: 0px;
+    color: #F55B31;
+}
+span.e-xy_02,.e-xy_03,.e-xy_04,.e-xy_05 {
+    font: normal normal normal 13px/15px Roboto;
+    letter-spacing: 0px;
+    color: #566683;
+}
+.e_live002::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 407px;
+    top: 187px;
+    bottom: 0;
+    border: 1px solid #2c3e5f;
+    border-width: 0 0 0 2px;
+    height: 49px;
+}
+.e_live03::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 314px;
+    top: 187px;
+    bottom: 0;
+    border: 1px solid #2c3e5f;
+    border-width: 0 0 0 2px;
+    height: 49px;
+}
+.e_live04::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 221px;
+    top: 187px;
+    bottom: 0;
+    border: 1px solid #2c3e5f;
+    border-width: 0 0 0 2px;
+    height: 49px;
+}
+.e_live002,.e_live03,.e_live04,.e_live05 {
+    margin: 0px 20px 0px 20px;
+}
+._event-countdown::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 275px;
+    bottom: 0;
+    border: 1px solid #9F9F9F;
+    border-width: 1px 0px 0px 0px;
+    width: 344px;
+}
+.event-owner {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+label.event-tt {
+    font: 700 10px/11px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+}
+h1.e-xy01,.e-xy02,.e-xy03 {
+    font: normal normal bold 12px/18px Roboto;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+}
+span.e_xy_01 {
+    font: normal normal normal 9px/9px Roboto;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+}
+.owner_live001,.own_live002,.onwer_live003 {
+    margin: 0px 20px 0px 20px;
+}
+.event-owner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    /* right: 243px; */
+    top: 354px;
+    bottom: 0;
+    border: 1px solid #9F9F9F;
+    border-width: 1px 0px 0px 0px;
+    width: 344px;
+}
+.owner_live001::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 356px;
+    top: 289px;
+    bottom: 0;
+    border: 1px solid #2c3e5f;
+    border-width: 0 0 0 2px;
+    height: 55px;
+}
+.own_live002::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 237px;
+    top: 289px;
+    bottom: 0;
+    border: 1px solid #2c3e5f;
+    border-width: 0 0 0 2px;
+    height: 55px;
+}
+.event-ticketing {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C9C9C980;
+    border-radius: 10px;
+    width: 351px;
+    height: 390px;
+    margin-top: 45px;
+    margin-left: 19px;
+}
+h2.tt-head {
+    font: normal normal bold 20px/23px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+p.tt-p {
+    font: normal normal normal 12px/18px Roboto;
+    letter-spacing: 0.09px;
+    color: #6A6A6A;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.sess-1 {
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+input#first-session {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+label.ses-label {
+    font: normal normal bold 12px/23px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+    margin-left: 8px;
+}
+
+label.sess-free {
+    font: normal normal bold 12px/23px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+    float: right;
+    position: relative;
+    top: -37px;
+    right: 7px;
+}
+span.sess-pan {
+    font: normal normal normal 9px/10px Roboto;
+    letter-spacing: 0.05px;
+    color: #566683;
+    margin-left: 32px;
+    position: relative;
+    top: -8px;
+}
+button.sess-btn {
+    background: #C9C9C9 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 10px 119px;
+    margin-left: 16px;
+    border: 1px solid #C9C9C9;
+    font: normal normal bold 18px/23px Roboto;
+    letter-spacing: 0px;
+    color: #F2F2F2;
+}
+.btn-sess {
+    margin-top: 48px;
+}
+.host {
+    margin-top: 100px;
+}
+h3.abt {
+    font: normal normal bold 25px/29px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+.n-name {
+    margin-top: 21px;
+}
+label.abt-name {
+    font: normal normal 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+}
+h1.author {
+    font: normal normal normal 18px/21px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+.bio-details {
+    margin-top: 21px;
+}
+label.bio-name {
+    font: normal normal normal 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+    text-transform: uppercase;
+}
+p.about-bio {
+    font: normal normal normal 18px/29px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+.org {
+    margin-top: 21px;
+}
+label.org-name {
+    font: normal normal normal 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9F9F9F;
+}
+p.org-details {
+    font: normal normal normal 18px/21px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+.upcoming-e {
+    margin-top: 100px;
+}
+h3.coming-event-tt {
+    font: normal normal bold 25px/29px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+img.img-display-e {
+    width: 153px;
+    height: 111px;
+    position: relative;
+    left: -6px;
+    top: -3px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+}
+.upcoming-event_display {
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 10px;
+    display: flex;
+    width: 382px;
+    height: 104px;
+    margin-top: 20px;
+}
+h2.upcoming-tt {
+    font: normal normal bold 14px/15px Roboto;
+    letter-spacing: 0px;
+    color: #CA6144;
+}
+span.event-author {
+    font: normal normal normal 15px/18px Roboto;
+    letter-spacing: 0px;
+    color: #566683;
+}
+label.event-date {
+    font: normal normal normal 10px/11px Roboto;
+    letter-spacing: 0px;
+    color: #9FA3A7;
+}
+p.event-dsc {
+    font: normal normal normal 10px/8px Roboto;
+    letter-spacing: 0px;
+    color: #393E51;
+}
+.event-link {
+    margin-top: 20px;
+}

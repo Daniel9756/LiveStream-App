@@ -1,0 +1,13 @@
+.gen-select{
+    width: 88%;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CA6144;
+    border-radius: 8px;
+    opacity: 1;
+    margin-left: 15px;
+    margin-top: 4px;
+    padding: 10px;
+    font: 100 13px/18px Roboto;
+    color: grey;
+}

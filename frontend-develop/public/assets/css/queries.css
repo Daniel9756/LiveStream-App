@@ -1,0 +1,47 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+ .logo_box{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+.logo {
+    width: 220px;
+    height: 110px;
+    opacity: 1;
+}
+._box {
+    text-align: center;
+}
+._ending {
+    color: #ffffff;
+    text-align: center;
+    font: Bold 52px/59px Roboto;
+    letter-spacing: 0.48px;
+    opacity: 1;
+    margin-top: -16px;
+    /* padding-left: 18px; */
+}
+._form {
+    /* margin-top: 38px; */
+    width: 387px;
+    height: 453px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin: auto;
+}
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+
+
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+
+
+}
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+
+
+}
